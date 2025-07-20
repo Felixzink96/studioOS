@@ -1,2 +1,0 @@
-# studioOS
-Moderne Kursplattform

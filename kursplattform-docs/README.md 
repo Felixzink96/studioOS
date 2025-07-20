@@ -1,0 +1,202 @@
+# 🚀 Kursplattform - Die moderne Eversports-Alternative
+
+> **Eine nutzerfreundliche, modulare Buchungsplattform für Studios, Trainer und Teilnehmer**
+
+## 📋 Projektübersicht
+
+### Was ist die Kursplattform?
+Die Kursplattform ist eine moderne, webbasierte Buchungslösung für Fitness-, Yoga-, Tanz- und Wellnessstudios. Sie ermöglicht Studios einen **kostenlosen Einstieg** ohne Vertriebshürden und bietet durch modulare Add-ons eine faire, skalierbare Preisstruktur.
+
+### Problem & Lösung
+**Problem:** Bestehende Anbieter wie Eversports sind teuer (49-229€/Monat), haben komplizierte Einstiegsprozesse und bieten wenig Flexibilität für kleine Studios.
+
+**Unsere Lösung:** 
+- ✅ **Free-Tier verfügbar** - 0€ Start mit 3 Kursen
+- ✅ **Self-Onboarding** - 5 Minuten Setup ohne Vertriebsgespräch  
+- ✅ **Modulare Add-ons** - nur zahlen was man braucht
+- ✅ **Moderne UX** - mobile-first, glassmorphism Design
+- ✅ **Innovative Features** - Chat, QR-Check-in, automatische Wartelisten
+
+### Zielgruppen
+1. **Einzeltrainer & Coaches** (8.000 in Deutschland) - oft ohne professionelle Buchungstools
+2. **Kleine Yogastudios** (3.500 in Deutschland) - benötigen flexible, günstige Lösungen  
+3. **Tanzschulen & Kampfsport** (4.000 in Deutschland) - traditionelle Branchen mit Digitalisierungsbedarf
+4. **Unzufriedene Eversports-Kunden** - suchen günstigere, flexiblere Alternative
+
+## 💰 Business-Modell
+
+### Tarifstruktur
+| Tarif | Preis/Monat | Kurse | Buchungen | Zielgruppe |
+|-------|-------------|-------|-----------|------------|
+| **Free** | 0€ | 3 | 50 | Einzeltrainer, Teststudios |
+| **Starter** | 29€ | 15 | 150 | Kleine Studios (1-3 Mitarbeiter) |
+| **Pro** | 69€ | ∞ | ∞ | Etablierte Studios |
+| **Custom** | 149€+ | ∞ | ∞ | Studio-Ketten, API-Zugang |
+
+### Modulare Add-ons
+Studios können Features einzeln dazubuchen:
+- **Warteliste** (7€/Mon) - Automatisches Nachrücken
+- **Chat-System** (6€/Mon) - Trainer ↔ Teilnehmer Kommunikation  
+- **QR-Check-in** (8€/Mon) - Digitale Anwesenheitsliste
+- **Branding** (6€/Mon) - Logo, Farben, Studio-CI
+- **Credits/10er-Karten** (9€/Mon) - Guthaben-System
+- **+7 weitere Add-ons** verfügbar
+
+### Revenue-Potenzial
+- **Jahr 1:** 200 Studios → 60.000€ ARR
+- **Jahr 3:** 2.000 Studios → 1,08 Mio€ ARR  
+- **Jahr 5:** 8.000 Studios → 6,24 Mio€ ARR
+- **Langfristig:** 5% EU-Marktanteil → 25-30 Mio€ ARR
+
+## 🧱 Technische Architektur
+
+### Modern Stack
+- **Frontend:** Next.js 14 + TypeScript + Tailwind CSS
+- **Backend:** Supabase (PostgreSQL + Auth + Realtime)
+- **Hosting:** Vercel + All-Inkl Domain
+- **Payments:** Stripe für Add-on-Abrechnung
+- **E-Mail:** Postmark/Mailgun für Transaktions-Mails
+
+### Warum dieser Stack?
+- **Skalierbar:** Serverless-Architecture, automatische Skalierung
+- **Günstig:** Free-Tiers für MVP, Pay-as-you-scale
+- **Modern:** TypeScript, Component-basiert, Mobile-first
+- **EU-DSGVO:** Supabase EU-Server, vollständige Compliance
+
+## ⭐ Kern-Features
+
+### Für Teilnehmer
+- **Kursbuchung** mit Echtzeit-Platzprüfung
+- **Magic Link Login** - kein Passwort erforderlich
+- **Meine Buchungen** - Übersicht, Stornierung, Historie
+- **Warteliste mit Live-Position** (Add-on)
+- **Chat mit Studio/Trainer** (Add-on)
+- **Kalenderexport** - Google Calendar, ICS
+
+### Für Studios (Admin)
+- **Kursverwaltung** - CRUD, Wiederholungen, Trainer-Zuordnung
+- **Multi-Standort-Management** - mehrere Locations verwalten
+- **Teilnehmerverwaltung** - Liste, Historie, Tags, Export
+- **QR-Check-in System** - digitale Anwesenheitsliste (Add-on)
+- **Trainer-Rollen** - eingeschränkte Berechtigung für Mitarbeiter
+- **Erweiterte Statistiken** - Auslastung, Umsatz, Trends (Add-on)
+- **Nachrichtenzentrale** - Gruppen-E-Mails an Teilnehmer (Add-on)
+
+### Innovative Differenzierung
+1. **Automatische Wartelisten** - PostgreSQL Trigger für sofortiges Nachrücken
+2. **Echtzeit-Chat** - WebSocket-basierte Kommunikation Studio ↔ Teilnehmer  
+3. **QR-Check-in** - Tablet am Eingang, Teilnehmer scannen sich selbst ein
+4. **Comprehensive Logging** - Vollständiger Audit-Trail für Support
+5. **Feature-Toggles** - A/B-Testing und schrittweise Feature-Rollouts
+
+## 🌍 Marktpotenzial
+
+### Deutschland (Start-Markt)
+- **32.000 Studios** gesamt (Fitness, Yoga, Tanz, Kampfsport)
+- **~8.000 digitalisierungsreife Studios** als Zielmarkt
+- **Konkurrenz:** Eversports (teuer), FitogramPro (begrenzt), viele Eigenentwicklungen
+
+### Europa-Expansion
+| Region | Studios | Potenzial | Sprache | Timeline |
+|--------|---------|-----------|---------|----------|
+| **DACH** | 43.500 | 10.000 | Deutsch | Jahr 1-2 |
+| **Benelux/UK** | 52.000 | 8.000 | Englisch | Jahr 3 |
+| **Nordics** | 16.000 | 3.000 | Englisch | Jahr 4 |
+| **Frankreich** | 28.000 | 4.000 | Französisch | Jahr 4-5 |
+
+**Gesamt EU-Markt:** 205.500 Studios, 120.000 digitalisiert, 96 Mio€ Volumen (2025)
+
+## 🚀 Entwicklungs-Roadmap
+
+### Phase 1: MVP Foundation (8 Wochen)
+- [x] Projektplanung & Dokumentation ✅
+- [ ] Supabase + Next.js Setup
+- [ ] Auth + Kursbuchung + Admin-Dashboard
+- [ ] Free-Tier vollständig nutzbar
+- **Ziel:** Lauffähiger MVP mit 5 Beta-Studios
+
+### Phase 2: Add-ons & Monetarisierung (8 Wochen)  
+- [ ] Feature-Flag-System + Stripe-Integration
+- [ ] Chat-System + QR-Check-in
+- [ ] Credits/10er-Karten + E-Mail-Automation
+- **Ziel:** Vollständige Starter/Pro-Features, erste Umsätze
+
+### Phase 3: Skalierung & Launch (8 Wochen)
+- [ ] Multi-Language + erweiterte Analytics
+- [ ] Beta-Testing mit 20 Studios
+- [ ] Marketing-Website + SEO
+- **Ziel:** 100+ Studios, Break-Even erreicht
+
+### Phase 4: Europa-Expansion (6-12 Monate)
+- [ ] DACH-Lokalisierung (AT, CH)
+- [ ] KI-Features (Kursassistent, Optimierung)  
+- [ ] Mobile App/PWA
+- **Ziel:** 1.000+ Studios, DACH-Marktposition
+
+## 🎯 Warum dieses Projekt erfolgreich wird
+
+### 1. Echter Marktbedarf
+- **Dokumentierte Eversports-Frustration** in Reviews & Foren
+- **32.000 Studios in Deutschland** mit 60% Digitalisierungslücke
+- **Preisschere:** 30-50% Kostenersparnis bei besseren Features
+
+### 2. Technologischer Vorsprung  
+- **Moderne Architektur** übertrifft veraltete Konkurrenz-Systeme
+- **Mobile-first UX** mit glassmorphism Design
+- **Innovative Features** die Eversports nicht bietet
+
+### 3. Geschäftsmodell-Innovation
+- **Free-Tier** eliminiert Einstiegshürden komplett
+- **Modulare Add-ons** bieten faire, flexible Skalierung  
+- **Self-Onboarding** ohne Vertriebsaufwand
+
+### 4. Timing & Markt
+- **Post-Corona Digitalisierungsschub** in Fitness-Branche
+- **EU-weite Skalierbarkeit** durch DSGVO-Compliance
+- **Unterversorgte Zielgruppen** (Einzeltrainer, kleine Studios)
+
+## 📁 Repository-Struktur
+
+```
+kursplattform-docs/
+├── README.md                    # Diese Übersicht
+├── PROJEKT_DOKUMENTATION.md     # 14-Kapitel Vollständige Dokumentation
+├── docs/                        # Fach-Dokumentationen
+│   ├── business-plan.md         # Detaillierte Geschäftsstrategie  
+│   ├── tech-stack.md           # Technische Architektur
+│   ├── design-system.md        # UI/UX Guidelines
+│   ├── database-schema.sql     # Vollständiges DB-Schema
+│   ├── roadmap.md             # Detaillierte Entwicklungsplanung
+│   └── market-analysis.md      # Markt & Konkurrenz-Analyse
+├── assets/                     # Design & Media Assets
+└── development/                # Entwicklungs-Guidelines
+    ├── setup-guide.md         # Technisches Setup
+    ├── claude-prompts.md      # KI-Entwicklungspartner Prompts
+    └── progress-log.md        # Entwicklungsfortschritt
+```
+
+## 🤖 KI-Entwicklungspartner
+
+**Dieses Projekt wird mit Claude als Code-Partner entwickelt.** 
+
+Für neue KI-Sessions verwende das Briefing aus `development/claude-prompts.md` um den kompletten Projektkontext zu übertragen.
+
+## 🚦 Aktueller Status
+
+**Phase:** Projekt vollständig geplant, bereit für MVP-Entwicklung  
+**Nächster Schritt:** Supabase-Projekt Setup + Next.js Grundgerüst  
+**Timeline:** MVP in 8 Wochen, erste Studios in 16 Wochen  
+
+---
+
+## 📞 Kontakt & Updates
+
+**Projekt-Owner:** [Dein Name]  
+**GitHub:** [Repository-Link]  
+**Status-Updates:** Siehe `development/progress-log.md`  
+**Fragen/Issues:** GitHub Issues oder Discussions  
+
+---
+
+*Letzte Aktualisierung: Juli 2025*  
+*Version: 1.0 - Ready for Development*
